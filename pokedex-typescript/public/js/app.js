@@ -36,7 +36,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 var container = document.getElementById("app");
-var pokemons = 100;
+var pokemons = 151;
 var showPokemon = function (pokemon) {
     var output = "\n        <div class=\"card\">\n            <span class=\"card--id\">#" + pokemon.id + "</span>\n            <img class=\"card--image\" src=" + pokemon.image + " alt=" + pokemon.name + " />\n            <h1 class=\"card--name\">" + pokemon.name + "</h1>\n            <span class=\"card--details\">" + pokemon.type + "</span>\n        </div>\n    ";
     container.innerHTML += output;
