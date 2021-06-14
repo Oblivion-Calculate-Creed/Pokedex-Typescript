@@ -1,5 +1,5 @@
 const container: HTMLElement = document.getElementById("app")!;
-const pokemons: number = 100;
+const pokemons: number = 151;
 
 const showPokemon = (pokemon: IPokemon): void => {
   let output: string = `
